@@ -1,0 +1,26 @@
+.md-header__topic {
+    display: none; /* Completely hides the element */
+}
+.md-nav__title {
+    display: none; /* Completely hides the element */
+}
+.md-header__button.md-logo img,
+.md-header__button.md-logo svg {
+    height: 2rem; /* Sets the height to 2rem */
+    max-height: 2rem; /* Ensures it doesn't exceed 2rem */
+    width: auto; /* Maintains the aspect ratio */
+}
+.md-footer-meta {
+    background: black; /* Set the footer background to black */
+    padding: 1rem 0; /* Add vertical padding */
+    text-align: center; /* Center-align footer text */
+    font-size: 0.6rem; /* Make text smaller */
+    color: white; /* Set text color to white for readability */
+    border-top: 1px solid var(--md-primary-fg-color); /* Optional divider line */
+}
+
+.md-footer-copyright {
+    margin: 0; /* Remove extra margin */
+    padding: 0; /* Remove padding */
+    line-height: 1.5; /* Improve readability */
+}
